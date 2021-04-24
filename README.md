@@ -1,5 +1,9 @@
 # Chemger.github.io
-my online webside
+
+## 学习各种计算机知识
+
+## 存放个人感悟
+
 ## Index
-this is a personal learning territory.
+
 # Astornishing!
