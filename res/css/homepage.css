@@ -1,0 +1,37 @@
+html{
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+body{
+    background-image: url("/res/img/08.jpg");
+
+}
+.main-container{
+    display: flex;
+    margin: 0 auto;
+    width: 1400px;
+    height: 2000vh;
+
+}
+.left-side{
+    background-color: #dcc;
+    width: 300px;
+    height: 600px;
+    max-width: 400px;
+
+}
+.center-container{
+    background-color: rgba(213, 213, 213, 0.95);
+    width: 800px;
+    height: 100%;
+}
+.title-line{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-items: center;
+}
+.title{
+    margin: 20px auto;
+}
