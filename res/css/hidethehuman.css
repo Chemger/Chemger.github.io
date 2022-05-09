@@ -20,6 +20,7 @@ body{
     height: 600px;
     max-width: 400px;
     visibility: hidden;
+
 }
 .center-container{
     background-color: rgba(213, 213, 213, 0.95);
@@ -36,30 +37,6 @@ body{
 .title{
     margin: 20px auto;
 }
-.item-container{
-    display: grid;
-    grid-template-columns: repeat(3,30%);
-    grid-template-rows: 200px;
-    grid-gap: 3%;
-}
-
-.item{
-    display: block;
-    border: black 2px dashed;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 22px;
-    padding: 30% 0;
-}
-#item-1{
-    border: black 2px dashed;
-    background-color: #d4c;
-}
-#item-2{
-    border: black 2px dashed;
-    background-color: #49dd44;
-}
-#item-3{
-    border: black 2px dashed;
-    background-color: #44dddd;
+a{
+    font-size: 20px;
 }
