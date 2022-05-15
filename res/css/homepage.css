@@ -4,7 +4,7 @@ html{
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 body{
-    background-image: url("/res/img/08.jpg");
+    background-color: darkslategrey;
 
 }
 .main-container{
@@ -23,13 +23,14 @@ body{
 .center-container{
     margin: 0 auto;
     background-color: rgba(213, 213, 213, 0.95);
-    width: 800px;
+    width: 950px;
     height: 100%;
-    padding: 15px;
+    padding: 25px;
 }
 .title-line{
-    width: 100%;
+    width: 900px;
     height: fit-content;
+    margin: 0 auto;
     display: flex;
     justify-items: center;
 }
@@ -38,9 +39,9 @@ body{
 }
 .item-container{
     display: grid;
-    grid-template-columns: repeat(3,30%);
+    grid-template-columns: repeat(3,300px);
     grid-template-rows: 300px;
-    grid-gap: 3%;
+    grid-gap: 25px;
 }
 
 .item{
@@ -64,7 +65,6 @@ body{
     width: 100%;
     height: auto;
     object-fit: contain;
-
 }
 .desc{
     width: 100%;
